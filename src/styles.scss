@@ -1,0 +1,32 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.bg-custom {
+  /* fallback for old browsers */
+  background: $purple;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, $purple, $primary);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, $purple, $primary);
+}
+
+.bg-grey {
+  background-color: $gray-800;
+  color: $white;
+}
+
+a.text-gray {
+  font-weight: bold;
+}
+
+.text-gray,
+.text-gray:active,
+.text-gray:hover {
+  color: $gray-600;
+}
